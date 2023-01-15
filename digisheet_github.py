@@ -31,7 +31,7 @@ def logInToDigisheet(STAFF_CODE, PASSWORD):
 
   XPATH_COMPANY_CODE = "/html/body/form/center/table/tbody/tr/td/table/tbody/tr[3]/td/input"
   elemCompanyCode = driver.find_element(By.XPATH, XPATH_COMPANY_CODE)
-  COMPANY_CODE = "7008"
+  COMPANY_CODE = ""
   elemCompanyCode.send_keys(COMPANY_CODE)
 
   XPATH_STAFF_ID = "/html/body/form/center/table/tbody/tr/td/table/tbody/tr[4]/td/input"
